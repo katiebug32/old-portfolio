@@ -1,0 +1,106 @@
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  a {
+      color: #777777;   
+  }
+
+.topBanner {
+    background-color: #ffffff;
+    border: 1px solid #777777;
+    left: 0px;
+    top: 0px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+h2 {
+    margin: 0 auto;
+}
+
+.name {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    margin-left: 100px;
+    width: fit-content;
+    height: 60px;
+    padding: 15px;
+    
+}
+
+.vl {
+    border-left: 2px solid #777777;
+    height: 10px;
+    
+}
+.menuBar {
+    float: right;
+    height: 60px;
+    padding: 20px;
+}
+.aboutNav {
+    float: right;
+    margin: auto;
+    padding-right: 9px;
+
+}
+.portfolioNav {
+    float: right;
+    margin: auto;
+    padding-right: 9px;
+}
+.contactNav {
+    float: right;
+    margin: auto;
+    padding-right: 9px;
+    
+}
+
+hr {
+    width: 90%;
+    border-width: 1px;
+    color: #666;
+}
+
+#profilePic {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 20px;
+}
+
+#aboutMe {
+    color: #4aaaa5;
+    padding: 20px; 
+}
+#aboutBody {
+margin-left: 90px;
+margin-top: 100px;
+width: 75%;
+overflow: hidden;
+background-color: #ffffff;
+border: 0.1px solid #dddddd;
+}
+
+#mainPara {
+    color: #777777;
+    padding: 25px;
+
+}
+
+.bottomBanner {
+    background-color: #777777;
+    border: 10px;
+    border-top-color: #4aaaa5;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
