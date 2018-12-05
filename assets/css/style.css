@@ -2,16 +2,16 @@
 
 
 * {
-    box-sizing: border-box;
-  }
+    box-sizing: border-box; 
+}
 
-  a {
+a {
       color: #777777;   
-  }
+}
 
 .topBanner {
     background-color: #ffffff;
-    border: 1px solid #777777;
+    border: 2px solid #cccccc;
     left: 0px;
     top: 0px;
     height: 60px;
@@ -19,6 +19,7 @@
     width: 100%;
     overflow: hidden;
 }
+
 h2 {
     margin: 0 auto;
 }
@@ -30,42 +31,37 @@ h2 {
     margin-left: 100px;
     width: fit-content;
     height: 60px;
-    padding: 15px;
-    
+    padding: 15px;  
 }
 
-.vl {
-    border-left: 2px solid #777777;
-    height: 10px;
-    
-}
 .menuBar {
     float: right;
     height: 60px;
     padding: 20px;
 }
-.aboutNav {
-    float: right;
-    margin: auto;
-    padding-right: 9px;
 
-}
-.portfolioNav {
+.vl {
+    background-color: #cccccc;
+    width: 1px;
+    height: 15px;
     float: right;
-    margin: auto;
-    padding-right: 9px;
 }
+
+.aboutNav,
+.portfolioNav,
 .contactNav {
     float: right;
     margin: auto;
-    padding-right: 9px;
-    
+    padding-right: 6px;
+    padding-left: 6px;
+    text-decoration: none;
 }
 
 hr {
-    width: 90%;
+    width: 95%;
     border-width: 1px;
-    color: #666;
+    color: #cccccc;
+    border-style: solid;
 }
 
 #profilePic {
@@ -78,29 +74,58 @@ hr {
 #aboutMe {
     color: #4aaaa5;
     padding: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 #aboutBody {
-margin-left: 90px;
-margin-top: 100px;
-width: 75%;
-overflow: hidden;
-background-color: #ffffff;
-border: 0.1px solid #dddddd;
+    margin-left: 90px;
+    margin-top: 100px;
+    width: 75%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 0.1px solid #dddddd;
 }
 
 #mainPara {
     color: #777777;
     padding: 25px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bottomBanner {
-    background-color: #777777;
-    border: 10px;
-    border-top-color: #4aaaa5;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
     left: 0px;
     bottom: 0px;
     height: 50px;
     position: fixed;
     width: 100%;
+}
+
+.container {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+}
+
+#name,
+#email {
+    width: 100%;
+    height: 20px;
+}
+
+#message {
+    width: 100%;
+    height: 100px;  
+
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    height: 20px;
+    text-align: center;
 }
