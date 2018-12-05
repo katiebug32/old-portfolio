@@ -88,10 +88,13 @@ hr {
 }
 
 #mainPara {
+    float: left;
     color: #777777;
-    padding: 25px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
 }
+
 
 .bottomBanner {
     background-color: #666666;
