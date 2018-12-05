@@ -84,6 +84,7 @@ hr {
     overflow: hidden;
     background-color: #ffffff;
     border: 0.1px solid #dddddd;
+    margin-bottom: 85px;
 }
 
 #mainPara {
@@ -128,4 +129,127 @@ hr {
     color: #ffffff;
     height: 20px;
     text-align: center;
+}
+
+.portfolioContainer {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+}
+
+#hangman {
+    position: relative;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#hangmanBanner {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#rpg {
+    position: relative;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+
+#rpgBanner {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#trivia {
+    clear: both;
+    position: relative;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+#triviaBanner {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#widget {
+    position: relative;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+#widgetBanner {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#rps {
+    clear: both;
+    position: relative;
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+#rpsBanner {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 110px;
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
