@@ -7,7 +7,15 @@
 
 a {
       color: #777777;   
+      text-decoration: none;
 }
+
+body {
+    margin: 0 auto;
+}
+
+
+/* top header */
 
 .topBanner {
     background-color: #ffffff;
@@ -18,34 +26,47 @@ a {
     position: fixed;
     width: 100%;
     overflow: hidden;
+    z-index: 999;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 2%;
+    margin-right: 10%;
+  }
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 2px;
+    color: #777777;
+    text-decoration: 
+  }
+
+.name {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    margin-left: 10%;
+    width: fit-content;
+    height: 60px;
+    padding: 15px;  
 }
 
 h2 {
     margin: 0 auto;
 }
 
-.name {
-    color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    margin-left: 100px;
-    width: fit-content;
-    height: 60px;
-    padding: 15px;  
-}
-
 .menuBar {
     float: right;
     height: 60px;
-    padding: 20px;
+    padding: 0;
+    align-self: auto;
 }
 
-.vl {
-    background-color: #cccccc;
-    width: 1px;
-    height: 15px;
-    float: right;
-}
+
+
+/* for old version...
 
 .aboutNav,
 .portfolioNav,
@@ -56,6 +77,13 @@ h2 {
     padding-left: 6px;
     text-decoration: none;
 }
+*/
+
+
+
+
+
+/* main body*/
 
 hr {
     width: 95%;
@@ -73,14 +101,15 @@ hr {
 
 #aboutMe {
     color: #4aaaa5;
-    padding: 20px; 
+    padding-left: 20px; 
+    padding-top: 15px;
+    padding-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #aboutBody {
-    margin-left: 90px;
-    margin-top: 100px;
-    width: 75%;
+    margin: 10%;
+    width: 80%;
     overflow: hidden;
     background-color: #ffffff;
     border: 0.1px solid #dddddd;
@@ -96,6 +125,10 @@ hr {
 }
 
 
+
+
+/* footer */
+
 .bottomBanner {
     background-color: #666666;
     border-top: 6px solid #4aaaa5;
@@ -106,7 +139,12 @@ hr {
     width: 100%;
 }
 
-.container {
+
+
+/* contact form section */
+
+
+#container {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -122,8 +160,9 @@ hr {
 #message {
     width: 100%;
     height: 100px; 
-    resize: vertical;
+    resize: inherit;
     overflow: auto; 
+    border-color: #cccccc;
 }
 
 #submitButton {
@@ -133,7 +172,12 @@ hr {
     color: #ffffff;
     height: 20px;
     text-align: center;
+    border: none;
 }
+
+
+
+/* portfolio content secion */
 
 .portfolioContainer {
     padding: 20px;
@@ -155,8 +199,8 @@ hr {
     position: absolute;
     float: left;
     width: 100%;
-    margin-top: 110px;
-    padding: 8px;
+    margin-top: 80%;
+    padding: 6px;
     font-size: small;
     text-align: center;
     color: #ffffff;
@@ -179,8 +223,8 @@ hr {
     position: absolute;
     float: left;
     width: 100%;
-    margin-top: 110px;
-    padding: 8px;
+    margin-top: 80%;
+    padding: 6px;
     font-size: small;
     text-align: center;
     color: #ffffff;
@@ -203,8 +247,8 @@ hr {
     position: absolute;
     float: left;
     width: 100%;
-    margin-top: 110px;
-    padding: 8px;
+    margin-top: 80%;
+    padding: 6px;
     font-size: small;
     text-align: center;
     color: #ffffff;
@@ -225,8 +269,8 @@ hr {
     position: absolute;
     float: left;
     width: 100%;
-    margin-top: 110px;
-    padding: 8px;
+    margin-top: 80%;
+    padding: 6px;
     font-size: small;
     text-align: center;
     color: #ffffff;
@@ -248,8 +292,8 @@ hr {
     position: absolute;
     float: left;
     width: 100%;
-    margin-top: 110px;
-    padding: 8px;
+    margin-top: 80%;
+    padding: 6px;
     font-size: small;
     text-align: center;
     color: #ffffff;
